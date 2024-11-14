@@ -1,0 +1,26 @@
+# Healthcare Service API
+
+This is a simple REST API built with Node.js, Express, and MongoDB to manage healthcare services. The API allows you to add, update, delete, and view healthcare services.
+
+## Features
+
+- **Add a Service**: Create a new healthcare service with name, description, and price fields.
+- **Get All Services**: Retrieve a list of all available services.
+- **Update a Service**: Modify details of an existing service.
+- **Delete a Service**: Remove a service from the list.
+
+## Technology Stack
+
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+
+## Setup Instructions
+
+### Prerequisites
+
+- **Node.js** and **npm**: Ensure Node.js and npm are installed. Verify with:
+  ```bash
+  node -v
+  npm -v
+
+## Ensure You change MONGODB_URL in .env file
